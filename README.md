@@ -199,10 +199,9 @@
 * 设置 PX margin `setMargin`
 
 
-* To get a Git project into your build:
-* Add it in your root build.gradle at the end of repositories:
-
-* Step 1. Add the JitPack repository to your build file
+To get a Git project into your build:
+Add it in your root build.gradle at the end of repositories:
+Step 1. Add the JitPack repository to your build file
 
 allprojects {
 		repositories {
@@ -211,7 +210,7 @@ allprojects {
 		}
 	}
   
- *  Step 2. Add the dependency
+Step 2. Add the dependency
   dependencies {
 	        implementation 'com.github.huchaosky:ALibrary:1.0'
 	}
